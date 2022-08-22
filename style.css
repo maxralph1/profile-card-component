@@ -1,0 +1,100 @@
+/* Acknowledgement: frontendmentor.io */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+
+/* Reset */
+
+*, *::before, *::after {
+ margin: 0;
+ box-sizing: border-box;
+ padding: 0;
+}
+
+
+/* Styling proper */
+
+.background {
+ background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+ background-position: left -150px top -150px, right -150px bottom -150px;
+ background-repeat: no-repeat, no-repeat;
+ background-size: 65% 65%;
+ background-color: hsl(185, 75%, 39%);
+ width: 100%;
+ height: 100vh;
+ /* font-family: 'Oxygen', sans-serif; */
+ font-family: 'Quicksand', sans-serif;
+}
+
+.card {
+ background: url("images/bg-pattern-card.svg"), whitesmoke;
+ background-repeat: no-repeat, no-repeat;
+ background-position: top, bottom;
+ background-size: 100% 36%, 100% 62.5%;
+ margin: 3em auto;
+ width: 60%;
+ max-width: 300px;
+ height: 70%;
+ border-radius: 10px;
+ text-align: center;
+ display: block;
+ padding: 4em 0 1.2em;
+}
+
+.basic_info {
+ line-height: 1.7;
+}
+
+.basic_info .head_shot {
+ width: 30%;
+ border-radius: 50px;
+ border: 4px solid whitesmoke;
+}
+
+.basic_info .details {
+ margin: 0.35em auto;
+}
+
+.basic_info .name_age {
+ font-weight: 900;
+ font-size: 0.9rem;
+}
+
+.basic_info .name_age span {
+ font-weight: normal;
+}
+
+.basic_info .location {
+ font-size: 0.7rem;
+}
+
+hr {
+ /* width: 95%; */
+ margin: 1.1rem auto;
+ background-color: lightgray;
+ border-color: transparent;
+}
+
+.more_info {
+ display: flex;
+ justify-content: space-around;
+}
+
+.more_info div p:first-child {
+ font-weight: bold;
+ font-size: 0.9rem;
+}
+
+.more_info div p:nth-child(2) {
+ font-size: 0.5rem;
+ letter-spacing: 0.055rem;
+}
+
+
+
+/* frontendmentor.io attribution */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
